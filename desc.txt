@@ -1,0 +1,8 @@
+part 1- 
+
+-gradient background from left to right:    background: linear-gradient(to right, <color1>, <color2>); 
+-Normalize.css:   is a good css library that shares most of the stuff websites mostly use. 
+-in order to put elements inline we dont use float anymore, better to use flex. ( also we can make them vertical by saying flex-direction:column) 
+- justify-content: space-between will push the items to the both sides. 
+- nav > a :  means all a tags which are DIRECT children of nav
+- when we want an attribute to be inherited from the direct parent we should mention:   color:inherit
