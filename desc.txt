@@ -6,3 +6,24 @@ part 1-
 - justify-content: space-between will push the items to the both sides. 
 - nav > a :  means all a tags which are DIRECT children of nav
 - when we want an attribute to be inherited from the direct parent we should mention:   color:inherit
+-------------------------------
+part 2:
+Utility class: some classes that are generic and have no specific name for the section but they are useful to style a group of elements. 
+non-utility classes are those with specific and self-explanatory names that use in external css as reference.
+- if we want to make 4 cards in a row I always use bootstrap col functionality. but we can make it with flex. we should wrap all 4 items in a div
+with display:flex then we can say justify-content:space-between
+- for all those 4 items we can say flex:1;  this way each of them will expand as much as they can to fill their own area. when we do this, if we delete 2 of the 4 columns the remainig 2 will fill out the whole row. 
+- the inner items of a flex can be flex as well. for the 4 columns inside the flex row, we make each of them a flex (display:flex;) 
+then we need to add 2 things for each of the columns to make their contents vertically and horizontally adjusted. 
+    1) justify-content: center;    (Hor)
+    2) align-items: center;     (Ver)
+- if we want the flex direction to be vertical instead of default horizontal, we can say:   flex-direction: column;
+--------------------------------
+part 3 : 
+when we want all the contents of the page align into the center of the page, we can apply flex to body. then we can align horizontally and vertically. 
+but it wouln't work unless we say on the top:    html, body { height:100%; )
+- in order to grab the first div chart of the card we can say like this:  card > div:first-child
+- if we want two elements to be on top of each other and the second one at the very end we need to display their parent flex and also flex-direction to column
+. then make the first one's eqaul to 1. it will take up as much space as it can,
+
+---------------------------------
