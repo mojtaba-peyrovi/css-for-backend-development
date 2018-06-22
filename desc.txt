@@ -27,3 +27,9 @@ but it wouln't work unless we say on the top:    html, body { height:100%; )
 . then make the first one's eqaul to 1. it will take up as much space as it can,
 
 ---------------------------------
+part 4:
+tailwind.css is a great tool that converts most of css styles to classes we can use like bootstrap classes.
+https://tailwindcss.com  so easy to use we just need to go through documentation and use it.
+for any color we have a range:   lightest, lighter, light, - , dark, darker, darkest.
+
+--------------------------------

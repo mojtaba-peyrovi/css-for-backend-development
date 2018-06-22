@@ -11,13 +11,13 @@
 
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
 
-        <link rel="stylesheet" href="css/card.css">
+        <link rel="stylesheet" href="css/card-tailwind.css">
 
     </head>
-    <body>
-        <div class="card">
+    <body class="flex items-center justify-center">
+        <div class="card flex">
             <!-- left  -->
-            <div class="card-left">
+            <div class="card-left flex flex-col justify-between">
                 <a href="#" type="" class="card-skill-button">PHP</a>
 
                 <img src="icon2.png" alt="" width="130px;" height="auto;">
@@ -28,17 +28,17 @@
 
 
             <!-- right  -->
-            <div class="card-right">
+            <div class="card-right flex flex-col text-grey-darker">
                 <h3 class="card-title"><a href="#">Testing Jargon</a></h3>
                 <p class="card-excerpt">Lorem ipsum dolor sit amet,  consequat. sse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-                <div class="card-meta">
-                    <div class="">
-                        <i class="fa fa-book" aria-hidden="true"></i>
+                <div class="card-meta flex">
+                    <div class="flex items-center">
+                        <i class="fa fa-book mr-2" aria-hidden="true"></i>
                         5 Lessons
                     </div>
 
-                    <div class="">
-                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <div class="flex items-center">
+                        <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
                         53:10 min
                     </div>
 
