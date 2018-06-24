@@ -33,3 +33,9 @@ https://tailwindcss.com  so easy to use we just need to go through documentation
 for any color we have a range:   lightest, lighter, light, - , dark, darker, darkest.
 
 --------------------------------
+part 5:
+in order to set width and height we can use tailwind and add them as classes like:  w-64 h-16 
+also we have h-full that means the element can get as much height as possible and push stuff under it down.
+tailwind: height-screen will make the height full the way that covers all the screen.
+in order to have sticky footer, we can make all the items flex:1 and align vertically. (also we can do as a class of flex-1)
+
